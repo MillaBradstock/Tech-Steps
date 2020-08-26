@@ -1,0 +1,261 @@
+#logoDiv {
+    float:left;
+    background-color:black;
+    padding-top:0.6rem;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    height: 75px; 
+}
+
+nav a {
+    color: white;
+    font-family: Verdana;
+    font-size: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+    padding-left: 1em;
+}
+
+nav a:hover {
+    background-color: #ff5050;
+    color: black
+}
+
+#titleImg {
+    width: 100%;
+    height: 35em;
+    object-fit: cover;
+}
+
+h2 {
+    color: black;
+    font-family: Verdana;
+    font-size: 2.5em;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left:1.5%;
+}
+
+h3 {
+    color: white;
+    font-family: Verdana;
+    font-size: 2rem;
+    margin:auto;
+    font-weight:normal;
+    text-align: center;
+}
+
+.tileText {
+    font-family: Verdana;
+    font-size:1em;
+    color: black;
+    padding:1em;
+    text-align: center;
+    display:none;
+}
+
+.tilesSect {
+    display: flex;
+    justify-content: center;
+}
+
+.tile {
+    width: 31%;
+    height: 18em;
+    
+    display:flex;
+    align-items:center;
+    justify-items:center;
+   
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color:#3399ff;
+}
+
+
+
+.tile:hover h3{
+    display:none;
+}
+
+.tile:hover {
+    background-color:white;
+    border:solid 0.2rem #3399ff;
+    height: 17.6em;
+    width:30%;
+}
+
+.tile:hover .tileText {
+    visibility:visible;
+    display:block;
+}
+
+#webDev:hover ~ #data {
+    background-image: url(img/webDev_img1.webp);
+    background-position: center;
+    background-size: auto 21em;
+}
+
+#webDev:hover ~ #data h3 {
+    display:none;
+}
+
+#webDev:hover ~ #design h3 {
+    display:none;
+}
+
+#webDev:hover ~ #design {
+    background-image: url(img/webDev_img2.png);
+    background-position: center;
+    background-size: auto 21em;
+}
+
+
+
+#data:hover ~ #design {
+    background-image: url(img/data_img2.jpg);
+    background-position: center;
+    background-size: auto 13em;
+}
+
+#data:hover ~ #design h3{
+    display:none;
+}
+
+
+#start:hover ~ #people {
+    background-image: url(img/startup_img1.jpg);
+    background-position: center;
+    background-size: auto 18em;
+}
+
+#start:hover ~ #people h3 {
+    display:none;
+}
+
+#start:hover ~ #insights {
+    background-image: url(img/startup_img2.jpg);
+    background-position: left;
+    background-size: auto 18em;
+}
+
+#start:hover ~ #insights h3 {
+    display:none;
+}
+
+#people:hover ~ #insights{
+    background-image: url(img/people_img1.jpg);
+    background-position: center;
+    background-size: auto 18em;
+}
+
+#people:hover ~ #insights h3{
+    display:none;
+}
+
+
+.buttonDiv {
+    display: flex;
+    align-content: flex-end;
+}
+
+.learnButton {
+    font-family: Verdana;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    width: 25%;
+    margin-top: 15px;
+    margin-left: 70.5%;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius:4px;
+}
+
+.learnButton:hover {
+    background-color: rgb(255, 86, 80);
+    color: black;
+    padding: 10px;
+    border: 0;
+}
+
+.tilesSect {
+    padding:0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.tryItOutOutline {
+    border: 5px solid #ff5050;
+    padding:1em;
+    margin-left:9em;
+    margin-right:9em;
+}
+
+
+.learningHeading {
+    color: black;
+    font-family: verdana;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.courseList {
+    color: black;
+    text-align: center;
+    font-family: verdana;
+    list-style-type: none;
+}
+
+a.learningLink {
+    color: #3399ff;
+}
+
+a.learningLink:hover {
+    color: #ff5050;
+}
+
+.buildYourKnowledgeOutline {
+    border: 5px solid #3399ff;
+    padding:1em;
+    margin-left:7em;
+    margin-right:7em;
+    margin-top: 1em;
+}
+
+.becomeAnExpertOutline {
+    border: 5px solid #00e6e6;
+    padding:1em;
+    margin-left:5em;
+    margin-right:5em;
+    margin-top: 1em;
+}
+
+.contact {
+    background-color: #00e6e6;
+    color: black;
+    font-family: Verdana;
+    font-size: 0.75em;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+

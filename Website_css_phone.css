@@ -1,0 +1,116 @@
+/*PHONE VERSION*/
+@media only screen and (max-width:768px) {    
+    #logoDiv {
+        float:none;
+        padding:none;
+        border:none;
+        background-color:black;
+        width:100%;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: black;
+        height: 50px; 
+        float:center;
+        border:none;
+    }
+    
+    nav a {
+        color: white;
+        font-family: Arial;
+        font-size: 0.75em;
+        padding: 0.1em;
+        text-decoration: none;
+        padding-left: 1em;
+    }
+    
+    #titleImg {
+        width: 100%;
+        height: 12em;
+        object-fit: cover;
+    }
+    
+    .tilesSect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tile {
+        width: 95%;
+        height: 12em;
+        margin: 0.5em;
+    }
+
+    .learnButton {
+        font-family: arial;
+        color: white;
+        font-size: 2em;
+        text-align: center;
+        border: none;
+        background-color: black;
+        padding: 10px;
+        margin-top: 0.25em;
+        margin-bottom: 2em;
+        margin-left:auto;
+        width: 95%;
+    }
+
+    h2 {
+        color: black;
+        font-family: Verdana;
+        font-size: 1.8em;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        margin-left:0;
+    }
+    
+    .tile:hover {
+        background-color:white;
+        border:solid 0.2rem #3399ff;
+        height: auto;
+        width:95%;
+    }
+
+    #logo {
+        float:none;
+    }
+
+    .learningPathH1 {
+        padding-top: 10%;
+        padding-bottom:3%;
+    }
+
+    .tryItOutOutline {
+        border: 5px solid #ff5050;
+        padding:1em;
+        margin-left:4em;
+        margin-right:4em;
+    }
+
+    .buildYourKnowledgeOutline {
+        border: 5px solid #3399ff;
+        padding:1em;
+        margin-left:4em;
+        margin-right:4em;
+        margin-top: 1em;
+    }
+    
+    .becomeAnExpertOutline {
+        border: 5px solid #00e6e6;
+        padding:1em;
+        margin-left:4em;
+        margin-right:4em;
+        margin-top: 1em;
+    }
+
+    .courseList {
+        color: black;
+        text-align: left;
+        font-family: verdana;
+        list-style-type: none;
+    }
